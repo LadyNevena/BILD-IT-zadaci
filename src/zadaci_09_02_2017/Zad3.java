@@ -28,14 +28,14 @@ public class Zad3 {
 	}
 
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
+		String imeFajla = args[0];
 		int brojLinija = 0;
 		int brojKaraktera = 0;
 		int brojRijeci = 0;
 		//za citanje sadrzaja iz fajla koristim klasu BufferedReader
 		try {
 			System.out.println("Unesite ime fajla:");
-			Path path = Paths.get(in.nextLine());
+			Path path = Paths.get(imeFajla);
 			BufferedReader reader = Files.newBufferedReader(path);		
 			try {
 				String linija = null;
@@ -53,7 +53,7 @@ public class Zad3 {
 						+ "\nUkupno rijeci:" + brojRijeci);
 				//zatvaramo resusrse koje smo koristili
 				reader.close();
-				in.close();
+			
 			}//u ovom "spoljasnjem" catch-u cemo uhvatiti greske
 		} catch (Exception e) {
 			e.printStackTrace();
