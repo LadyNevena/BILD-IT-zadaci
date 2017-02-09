@@ -32,7 +32,7 @@ public class Zad3 {
 		int brojLinija = 0;
 		int brojKaraktera = 0;
 		int brojRijeci = 0;
-		//za citanje sadrzaja iz fajla koristim klasu BufferedReader
+		//za citanje sadrzaja iz fajla koristim klasu  BufferedReader
 		try {
 			System.out.println("Unesite ime fajla:");
 			Path path = Paths.get(imeFajla);
