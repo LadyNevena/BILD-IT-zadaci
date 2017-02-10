@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Zad2 {
 	public static double min(double[] array) {
-		double min = array[0];//pp da je prvi el. niza minimalan
+		double min = array[0];// pp da je prvi el. niza minimalan
 		for (int i = 1; i < array.length; i++) {
 			if (array[i] < min) {
 				min = array[i];//novi minimalan

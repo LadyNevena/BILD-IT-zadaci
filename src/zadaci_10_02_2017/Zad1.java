@@ -5,7 +5,7 @@ public class Zad1 {
 	// metoda vraca true ako je broj prost
 	public static boolean jeProst(int broj) {
 		/*
-		 * svaki broj se moze napisati kao proizvod svojih  prostih faktora ako
+		 * svaki broj se moze napisati kao proizvod svojih prostih faktora ako
 		 * je broj prost njegovi jedini faktori su 1 i on sam prvi prost broj je
 		 * 2 pa potragu za faktorima zapocinjemo od 2 petlja moze da stane kada
 		 * dodjemo do polovine broja, jer bismo u protivnom bespotrebno vrtili

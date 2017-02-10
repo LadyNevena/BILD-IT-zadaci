@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Zad5 {
 	public static void sortRedova(int[][] mat ){
-		// kontrola redova
+		//kontrola redova
 		for (int i = 0; i < mat.length; i++) {
 			//sortiranje datog reda algoritmom bubble sort
 			//vrsi se poredenje svih elemenata i zamjena po kriterijumu iz if-a
