@@ -21,7 +21,7 @@ public class Zad1 {
 		}
 		return true;
 	}
-	//ispis svih prostih iz [a,b] ,njih n u liniji
+	// ispis svih prostih iz [a,b] ,njih n u liniji
 	public static void printProst(int a, int b, int n) {
 		int brojac = 0;
 		for (int i = a; i <= b; i++) {

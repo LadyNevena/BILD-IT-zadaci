@@ -3,7 +3,7 @@ package zadaci_10_02_2017;
 import java.util.Scanner;
 
 public class Zad3 {
-	//vraca true ako su nizovi striktno identicni
+	// vraca true ako su nizovi striktno identicni
 	public static boolean equals(int[] niz1, int[] niz2) {
 		for (int i = 0; i < niz2.length; i++) {
 			if (niz1[i] != niz2[i]) {

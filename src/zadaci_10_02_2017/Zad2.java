@@ -7,7 +7,7 @@ public class Zad2 {
 		double min = array[0];// pp da je prvi el. niza minimalan
 		for (int i = 1; i < array.length; i++) {
 			if (array[i] < min) {
-				min = array[i];//novi minimalan
+				min = array[i];// novi minimalan
 			}
 		}
 		return min;
