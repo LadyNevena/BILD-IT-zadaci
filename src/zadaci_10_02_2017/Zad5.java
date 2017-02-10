@@ -42,9 +42,9 @@ public class Zad5 {
 			System.out.println();
 		}
 		System.out.println();
-		sortRedova(mat);
+		sortRedova(mat); 
 		System.out.println("Matrica sa sortiranim redovima:");
-		// ispis elemenata nakon poziva fje sortRedova(mat);
+		//ispis elemenata nakon poziva fje sortRedova(mat);
 				for (int i = 0; i < mat.length; i++) {
 					for (int j = 0; j < mat[i].length; j++) {
 						System.out.print(mat[i][j] + " ");

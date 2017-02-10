@@ -7,7 +7,7 @@ public class Zad3 {
 	public static boolean equals(int[] niz1, int[] niz2) {
 		for (int i = 0; i < niz2.length; i++) {
 			if (niz1[i] != niz2[i]) {
-				return false;// prekini petlju ako se odg el. ne poklapaju
+				return false;//prekini petlju ako se odg el. ne poklapaju
 			}
 		}
 		return true;
