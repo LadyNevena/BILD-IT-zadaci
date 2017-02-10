@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Zad4 {
 	public static int[] locateLargest(double[][] a) {
-		double max = a[0][0];// pp da je prvi el najveci
+		double max = a[0][0];//pp da je prvi el najveci
 		int[] indeksi = new int[2];
 		for (int i = 0; i < a.length; i++) {
 			for (int j = 0; j < a.length; j++) {
