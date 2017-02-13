@@ -37,7 +37,7 @@ public class Zad5 {
 
 		// ukoliko korisnik unese nesto sto nije cio broj
 		// program ne prekida sa radom, vec ispisuje poruku da korisnik nastavi
-		// sa unosom
+		// sa unosom tj ima mogucnost da koriguje to sto je unio
 		// dok ne unese ispravno
 		while (lista.size() != 100) {
 			try {
